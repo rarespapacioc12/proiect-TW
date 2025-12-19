@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Contact - Cinema 1000</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1> <face id="titlu">CINEMA 1000</face> - locul unde trăiești 1000 de vieți în aceeași sală!</h1>
+            <nav>
+                <a href="index.html">ACASĂ</a>
+                <a href="program.html">PROGRAM</a>
+                <a href="noutati.html">NOUTĂȚI</a>
+                <a href="info.html">INFO ȘI TARIFE</a>
+                <a href="contact.html">CONTACT</a>
+                <div class="user-menu">
+                    <input type="checkbox" id="user-menu-toggle" class="user-menu-toggle">
+                    <label for="user-menu-toggle" class="user-menu-button">
+                        <img src="home/images/person-icon.png" id="person-icon" alt="Meniu Utilizator">
+                    </label>
+                    <nav class="user-dropdown" role="navigation">
+                        <a href="login.html">Autentificare</a>
+                        <a href="cont.html">Contul meu</a>
+                        <a href="delogare.html">Deconectare</a>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="page-container">
+                <h1 class="page-title">Contact</h1>
+
+                <section class="contact-grid">
+                    
+                    <form class="contact-form">
+                        <div class="form-grup">
+                            <label for="nume">Numele tău:</label>
+                            <input type="text" id="nume" name="nume" required>
+                        </div>
+                        <div class="form-grup">
+                            <label for="email">Adresa de email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-grup">
+                            <label for="subiect">Subiect:</label>
+                            <input type="text" id="subiect" name="subiect">
+                        </div>
+                        <div class="form-grup">
+                            <label for="mesaj">Mesajul tău:</label>
+                            <textarea id="mesaj" name="mesaj" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-trimite">Trimite Mesajul</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <h3>Informații de contact</h3>
+                        <address>
+                            Bulevardul Iuliu Maniu 15, București,<br>
+                            Sector 6, București<br>
+                            România
+                        </address>
+                        <p>
+                            Telefon: <a href="tel:+40721381621">+40 721 381 621</a><br>
+                            Email: <a href="mailto:contact@cinema1000.ro">rares-ioan.papacioc@s.unibuc.ro</a>
+                        </p>
+                        
+                        <h3>Locație pe hartă</h3>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.9803803058508!2d26.041412285577504!3d44.4335646719858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201f609995a6f%3A0x8a7b024778b7d337!2sPolitehnica%20Business%20Tower!5e0!3m2!1sro!2sro!4v1761509649796!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 Cinema 1000. Toate drepturile rezervate.</p>
+            <p>
+                <a href="#">Termeni și condiții</a> | 
+                <a href="#">Politica de confidențialitate</a>
+            </p>
+        </footer>
+    </body>
+</html>

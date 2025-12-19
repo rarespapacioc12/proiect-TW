@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Program - Cinema 1000</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1> <face id="titlu">CINEMA 1000</face> - locul unde trăiești 1000 de vieți în aceeași sală!</h1>
+            <nav>
+                <a href="index.html">ACASĂ</a>
+                <a href="program.html">PROGRAM</a>
+                <a href="noutati.html">NOUTĂȚI</a>
+                <a href="info.html">INFO ȘI TARIFE</a>
+                <a href="contact.html">CONTACT</a>
+                <div class="user-menu">
+                    <input type="checkbox" id="user-menu-toggle" class="user-menu-toggle">
+                    <label for="user-menu-toggle" class="user-menu-button">
+                        <img src="home/images/person-icon.png" id="person-icon" alt="Meniu Utilizator">
+                    </label>
+                    <nav class="user-dropdown" role="navigation">
+                        <a href="login.html">Autentificare</a>
+                        <a href="cont.html">Contul meu</a>
+                        <a href="delogare.html">Deconectare</a>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="page-container">
+                <h1 class="page-title">PROGRAM</h1>
+
+                <section class="program-grid">
+                    
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-pets.html">
+                                <img src="program/images/pets-on-a-train.jpg" alt="Pets on a Train">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Pets on A Train</h3>
+                            <p>Câteva animale de companie prinse într-un tren trebuie să contracareze planurile lui Hans, un bursuc care-și caută răzbunarea. În timp ce un accident catastrofal pare inevitabil, animalele se pot baza doar pe Falcon, un raton viclean și plin de inventiv, gata să facă orice pentru a le salva.</p>
+                            <p>Gen: Acțiune, Animație, Comedie, Thriller</p>
+                            <p>Durată: 100 min</p>
+                            <p>Rating: AG (Audiență generală)</p>
+                            <a href="film-pets.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-stitch.html">
+                                <img src="program/images/stitch-head.jpg" alt="Stitch Head">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Stitch Head</h3>
+                            <p>Sus, în vârful dealului, deaspra orășelului Grubbers Nubbin, se zărește Castelul Grotteskew. Aici, într-un laborator bizar, cel mai nebun dintre profesorii nebuni aduce (aproape) la viață cea mai recentă creatură monstruoasă… înainte să treacă la următoarea.</p>
+                            <p>Gen: Animație, Comedie, Familie</p>
+                            <p>Durată: 90 min</p>
+                            <p>Rating: AG (Audiență generală)</p>
+                            <a href="film-stitch.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-vecina.html">
+                                <img src="program/images/vecina.jpg" alt="Vecina">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Vecina</h3>
+                            <p>Viața unor vecini de bloc e dată peste cap în momentul în care o domnișoară de 55 de ani (Doina) se mută lângă ei. Doina e o procesomană maniacă ce pretinde liniște totală în bloc. Lucrurile se precipită în momentul în care vecinii contraatacă.</p>
+                            <p>Gen: Comedie</p>
+                            <p>Durată: 90 min</p>
+                            <p>Rating: N-15 (Nerecomandat 15)</p>
+                            <a href="film-vecina.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+                    
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-immortal.html">
+                                <img src="program/images/how-to-save-the-immortal.jpg" alt="How to Save the Immortal">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>How to Save the Immortal</h3>
+                            <p>Veșnic tânăr și mereu îmbrăcat imaculat, Koschey nu a reușit să găsească o mireasă timp de trei sute de ani. A intimidat, a răpit și a transformat diverse prințese în broaște, dar acest mod de a face curte nu l-a ajutat pe prințul întunericului...</p>
+                            <p>Gen: Animație, Aventuri, Comedie, Dramă, Familie, Romantic, Dragoste</p>
+                            <p>Durată: 80 min</p>
+                            <p>Rating: AP-12 (Acordul părinților 12)</p>
+                            <a href="film-immortal.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+                    
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-cursa.html">
+                                <img src="program/images/cursa.jpg" alt="Cursa">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Cursa</h3>
+                            <p>Bulevardele din București vor deveni piste periculoase, nopțile calde vor răsuna sub pedala de accelerație, iar adrenalina întrecerilor va fi asigurată de supermașini unicat. Bolizii și cursele de stradă vor fi completate de o distribuție efervescentă cu Denis Hanganu, Codin Maticiuc şi Ştefania în rolurile principale, plus o echipă de cascadori și șoferi profesioniști.</p>
+                            <p>Gen: Acțiune</p>
+                            <p>Durată: 100 min</p>
+                            <p>Rating: AP-12 (Acordul părinților 12)</p>
+                            <a href="film-cursa.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-springsteen.html">
+                                <img src="program/images/springsteen.jpg" alt="Springsteen">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Springsteen: Deliver Me from Nowhere</h3>
+                            <p>Povestea apartiției albumului "Nebraska" din 1982, pe care Bruce Springsteen l-a compus in timp ce înregistra "Born in the USA" cu E Street Band. Filmul este bazat pe cartea lui Warren Zanes.</p>
+                            <p>Gen: Dramă</p>
+                            <p>Durată: 120 min</p>
+                            <p>Rating: AP-12 (Acordul părinților 12)</p>
+                            <a href="film-springsteen.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-lazarescu.html">
+                                <img src="program/images/moartea-domnului-lazarescu.jpg" alt="Moartea domnului Lazarescu">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>Moartea domnului Lăzărescu</h3>
+                            <p>Un bătrân de 63 de ani - domnul Lăzărescu - locuiește într-un apartament de bloc cu cele trei pisici ale sale. Soția lui a murit, iar fiica sa trăiește în Canada. Simțindu-se rău, bătrânul cheamă salvarea. Până la sosirea acesteia, cere ajutorul vecinilor. Consultându-l și suspectând un cancer de colon, medicul decide să-l interneze. La spital intervin alte priorități și bătrânul, care e presupus a fi alcoolic, este dus la alt spital, apoi la altul.</p>
+                            <p>Gen: Comedie, Dramă</p>
+                            <p>Durată: 150 min</p>
+                            <p>Rating: AG (Audiență generală)</p>
+                            <a href="film-lazarescu.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+
+                    <article class="movie-article">
+                        <figure class="movie-poster">
+                            <a href="film-blackphone2.html">
+                                <img src="program/images/the-black-phone-2.jpg" alt="The Black Phone 2">
+                            </a>
+                        </figure>
+                        <div class="movie-info">
+                            <h3>The Black Phone 2</h3>
+                            <p>În timp ce Finn, acum în vârstă de 17 ani, încearcă să-și reia viața după captivitate, sora lui începe să primească apeluri în vise de la telefonul negru și să aibă viziuni tulburătoare cu trei băieți urmăriți într-o tabără de iarnă cunoscută sub numele de Alpine Lake.</p>
+                            <p>Gen: Horror</p>
+                            <p>Durată: 120 min</p>
+                            <p>Rating: NR-15 (Nerecomandat 15)</p>
+                            <a href="film-blackphone2.html" class="btn-bilete">Cumpără Bilet</a>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 Cinema 1000. Toate drepturile rezervate.</p>
+            <p>
+                <a href="#">Termeni și condiții</a> | 
+                <a href="#">Politica de confidențialitate</a>
+            </p>
+        </footer>
+    </body>
+</html>
